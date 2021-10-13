@@ -7,3 +7,11 @@
     i = 5;
     System.out.println("Constructor is called");
   }
+# new method is adding by genepact1
+public static void main(String[] args) {
+
+    // calling the constructor without any parameter
+    Main obj = new Main();
+    System.out.println("Value of i: " + obj.i);
+  }
+}
